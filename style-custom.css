@@ -1,0 +1,99 @@
+/* Custom styles
+   ========================================================================== */
+#main{
+	background: #434851 url(assets/media/neural-network-2.png) no-repeat right 45%;
+	background-blend-mode: color-dodge;
+	background-size: 50%;
+}
+.section--first{
+	background: #434851 url(assets/media/neural-network-1.png) no-repeat right 65%;
+	background-blend-mode: color-dodge;
+	background-size: 50%;
+}
+
+h5{
+	font-size: 36px;
+	line-height: 44px;
+}
+.sub-head-2{
+	font-size: 32px;
+	line-height: 40px
+}
+.sub-head-2 span{
+	display: block;
+}
+#widecard,
+#registration,
+#schedule .reveal{
+	position: relative;
+}
+.flying-logo{
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	top: 100px;
+	transform: rotate(-90deg);
+	opacity: 0.5;
+}
+.flying-logo-2{
+	left: 100px;
+	top: 95px;
+	transform: rotate(180deg);
+}
+.flying-logo-3{
+	left: auto;
+    right: -50px;
+    top: -80px;
+    transform: rotate(180deg);
+}
+.reveal__copy p{
+	width: 95%;
+}
+.speaker-neat {
+    margin-bottom: 30px;
+}
+.speaker-neat figure{
+	border-radius: 50%;
+	overflow: hidden;
+	max-height: 207px;
+	border: 10px solid #eb5c3b;
+	-webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+.speaker-neat__copy{
+	text-align: center;
+}
+.speaker-neat__copy h5{
+	margin-bottom: 0;
+    font-size: 22px;
+    line-height: 30px;
+}
+#speakers .lines-bg {
+    background: url(assets/media/speakers-bg-all.png) no-repeat center 38%;
+    background-size: 70%;
+}
+
+@media (min-width: 992px){
+	.display-one {
+	    font-size: 100px;
+	    line-height: 120px;
+	    letter-spacing: -0.04em;
+	}
+}
+@media screen and (max-width: 768px){
+	#speakers .lines-bg {
+        background: url(assets/media/speakers-bg-mobile.png) no-repeat center 40%;
+    }
+	.speaker-neat figure{
+		max-height: 660px;
+	}
+	.flying-logo{
+		display: none;
+	}
+}
+@media screen and (max-width: 425px){
+	.speaker-neat figure{
+		max-height: 220px;
+	    width: 220px;
+	    margin: 0 auto;
+	}
+}
