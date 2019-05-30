@@ -56,11 +56,18 @@ h5{
 	border-radius: 50%;
 	overflow: hidden;
 	max-height: 207px;
-	border: 10px solid #eb5c3b;
+	border: 10px solid #ffffff;
 	-webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+.speaker-neat figure:hover{
+	border: 10px solid #eb5c3b;
 }
 .speaker-neat__copy{
 	text-align: center;
+	color: #ffffff;
+}
+.speaker-neat:hover .speaker-neat__copy{
+	color: #ee5b33;
 }
 .speaker-neat__copy h5{
 	margin-bottom: 0;
