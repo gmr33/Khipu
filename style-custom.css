@@ -86,10 +86,12 @@ h5{
 
 .sponsor-logo-row {
 	margin: auto;
+	text-align: center;
 }
 
 .sponsor-logo-row .in-view__child {
 	display: inline-block;
+	padding-top: 10px;
 }
 
 img.filter-white {
