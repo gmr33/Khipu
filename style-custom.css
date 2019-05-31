@@ -79,6 +79,23 @@ h5{
     background-size: 70%;
 }
 
+.sponsor-logo img {
+	width: auto;
+	padding-right: 30px;
+}
+
+.platinum .sponsor-logo img {
+	height: 100px;
+}
+
+.gold .sponsor-logo img {
+	height: 60px;
+}
+
+.bronze .sponsor-logo img {
+	height: 40px;
+}
+
 @media (min-width: 992px){
 	.display-one {
 	    font-size: 100px;
