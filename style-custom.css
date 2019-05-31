@@ -84,7 +84,19 @@ h5{
 	padding-right: 30px;
 }
 
-.platinum .sponsor-logo img {
+.sponsor-logo-row {
+	margin: auto;
+}
+
+.sponsor-logo-row .in-view__child {
+	display: inline-block;
+}
+
+img.filter-white {
+	filter: brightness(0) invert(1);
+}
+
+.platinum .sponsor-logo img, .strategic-partners .sponsor-logo img {
 	height: 100px;
 }
 
@@ -94,6 +106,11 @@ h5{
 
 .bronze .sponsor-logo img {
 	height: 40px;
+}
+
+#sponsors h3 {
+	margin-top: 30px;
+	text-align: center;
 }
 
 @media (min-width: 992px){
