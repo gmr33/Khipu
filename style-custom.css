@@ -59,7 +59,7 @@ h5{
 	border: 10px solid #ffffff;
 	-webkit-mask-image: -webkit-radial-gradient(white, black);
 }
-.speaker-neat figure:hover{
+.speaker-neat:hover figure{
 	border: 10px solid #eb5c3b;
 }
 .speaker-neat__copy{
