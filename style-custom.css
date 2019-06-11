@@ -79,17 +79,17 @@ h5{
     background-size: 70%;
 }
 
-.sponsor-logo img {
+.s-l img {
 	width: auto;
 	padding-right: 30px;
 }
 
-.sponsor-logo-row {
+.s-l-row {
 	margin: auto;
 	text-align: center;
 }
 
-.sponsor-logo-row .in-view__child {
+.s-l-row .in-view__child {
 	display: inline-block;
 	padding-top: 10px;
 }
@@ -98,19 +98,19 @@ img.filter-white {
 	filter: brightness(0) invert(1);
 }
 
-.platinum .sponsor-logo img {
+.platinum .s-l img {
 	height: 100px;
 }
 
-.strategic-partners .sponsor-logo img {
+.strategic-partners .s-l img {
 	height: 95px;
 }
 
-.gold .sponsor-logo img {
+.gold .s-l img {
 	height: 70px;
 }
 
-.bronze .sponsor-logo img {
+.bronze .s-l img {
 	height: 70px;
 }
 
