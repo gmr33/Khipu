@@ -78,7 +78,17 @@ h5{
     background: url(assets/media/speakers-bg-all.png) no-repeat center 38%;
     background-size: 70%;
 }
-
+.speaker-neat.organizer figure{
+	height: 190px;
+	width: 190px;
+	margin: auto;
+}
+.organizers-header {
+	margin-top: 75px;
+}
+.special-thanks {
+	font-size: 20px;
+}
 .s-l img {
 	width: auto;
 	padding-right: 30px;
